@@ -1,0 +1,6 @@
+framework module Pods_calculadora_irpfTests {
+  umbrella header "Pods-calculadora-irpfTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

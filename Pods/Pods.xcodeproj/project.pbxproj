@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		300AE8087B19D193439A8E00E74D7E1D /* Pods-calculadora-irpfTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C10CEC835297800B5CB22F6425930F3 /* Pods-calculadora-irpfTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E9D983445A4192560AC0AC52EE4BD91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		4AF0DD610413F2AD62B93959B44EFE6A /* Pods-calculadora-irpf-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F0BF431BB6A3449F0C4E0182EF5EEC /* Pods-calculadora-irpf-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76AEA6DCB514075E6B8D6A818D5AD65A /* Pods-calculadora-irpf-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC73BABB126C0B39F157230F0E6A2213 /* Pods-calculadora-irpf-dummy.m */; };
+		896AC5AB2271E42F92CD3053F1F5FE48 /* Pods-calculadora-irpfTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A65422B22D53905DB8898D068417F0B /* Pods-calculadora-irpfTests-dummy.m */; };
+		BF955D904B97A4C941924F62632B6F16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF924BC3480BE5789E557531BFCDFB66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF7FAA085FBFB70932BED48A59F1B86;
+			remoteInfo = "Pods-calculadora-irpf";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04D1445D23AED06F276355D1C6FF66C0 /* Pods-calculadora-irpf.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-calculadora-irpf.modulemap"; sourceTree = "<group>"; };
+		0E16249438F19CADAC9FACEAC06BEB97 /* Pods-calculadora-irpfTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-calculadora-irpfTests-frameworks.sh"; sourceTree = "<group>"; };
+		11A8BA1876430946E84545D7B1E14B0D /* Pods-calculadora-irpfTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-calculadora-irpfTests-resources.sh"; sourceTree = "<group>"; };
+		1567EF51A35B17E2442E1BF5517242FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		157A4EE39679829AAAFB9D53F1CDA601 /* Pods-calculadora-irpf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-calculadora-irpf.debug.xcconfig"; sourceTree = "<group>"; };
+		2C6D39E9A0D1748538F068954EAEB1C7 /* Pods_calculadora_irpf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_calculadora_irpf.framework; path = "Pods-calculadora-irpf.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A65422B22D53905DB8898D068417F0B /* Pods-calculadora-irpfTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-calculadora-irpfTests-dummy.m"; sourceTree = "<group>"; };
+		3AC18C37116D3A6FF90FE67D89CAD93A /* Pods-calculadora-irpfTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-calculadora-irpfTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4818B076087E8A775CB29F310606ECE8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		557E09A62C52FB069B048B300E86FC63 /* Pods-calculadora-irpf-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-calculadora-irpf-resources.sh"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76F0BF431BB6A3449F0C4E0182EF5EEC /* Pods-calculadora-irpf-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-calculadora-irpf-umbrella.h"; sourceTree = "<group>"; };
+		831E826425BDA4E57AE488C954FB5989 /* Pods-calculadora-irpfTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-calculadora-irpfTests.modulemap"; sourceTree = "<group>"; };
+		88702EC750CC32332C45749A097B2A90 /* Pods-calculadora-irpfTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-calculadora-irpfTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C10CEC835297800B5CB22F6425930F3 /* Pods-calculadora-irpfTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-calculadora-irpfTests-umbrella.h"; sourceTree = "<group>"; };
+		A5655CE10D70F312EACFD4EF95F2B578 /* Pods_calculadora_irpfTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_calculadora_irpfTests.framework; path = "Pods-calculadora-irpfTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C9779910C5CB484E1FBC6336228807 /* Pods-calculadora-irpf-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-calculadora-irpf-frameworks.sh"; sourceTree = "<group>"; };
+		AA9021E1C87B994A30133D086E8AB80A /* Pods-calculadora-irpf-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-calculadora-irpf-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BBA49BA0EF775D3050A8F2170FF475DC /* Pods-calculadora-irpfTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-calculadora-irpfTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF02687E9AF1AA2EDBAB66E36EF8BE91 /* Pods-calculadora-irpf-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-calculadora-irpf-acknowledgements.plist"; sourceTree = "<group>"; };
+		DE8B886D6D96C14AE2C6820A89BC0A88 /* Pods-calculadora-irpfTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-calculadora-irpfTests.release.xcconfig"; sourceTree = "<group>"; };
+		E4A6937358F768885548F848D4D44AF2 /* Pods-calculadora-irpf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-calculadora-irpf.release.xcconfig"; sourceTree = "<group>"; };
+		EC73BABB126C0B39F157230F0E6A2213 /* Pods-calculadora-irpf-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-calculadora-irpf-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01F9A6CA6A7279C98824D330ACE4E221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF955D904B97A4C941924F62632B6F16 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A6DA88F6F8B03E7C9F5F2C48B3F854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9D983445A4192560AC0AC52EE4BD91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07987DA711CD999CDCA8D7AE86106B0D /* Pods-calculadora-irpf */ = {
+			isa = PBXGroup;
+			children = (
+				1567EF51A35B17E2442E1BF5517242FF /* Info.plist */,
+				04D1445D23AED06F276355D1C6FF66C0 /* Pods-calculadora-irpf.modulemap */,
+				AA9021E1C87B994A30133D086E8AB80A /* Pods-calculadora-irpf-acknowledgements.markdown */,
+				BF02687E9AF1AA2EDBAB66E36EF8BE91 /* Pods-calculadora-irpf-acknowledgements.plist */,
+				EC73BABB126C0B39F157230F0E6A2213 /* Pods-calculadora-irpf-dummy.m */,
+				A8C9779910C5CB484E1FBC6336228807 /* Pods-calculadora-irpf-frameworks.sh */,
+				557E09A62C52FB069B048B300E86FC63 /* Pods-calculadora-irpf-resources.sh */,
+				76F0BF431BB6A3449F0C4E0182EF5EEC /* Pods-calculadora-irpf-umbrella.h */,
+				157A4EE39679829AAAFB9D53F1CDA601 /* Pods-calculadora-irpf.debug.xcconfig */,
+				E4A6937358F768885548F848D4D44AF2 /* Pods-calculadora-irpf.release.xcconfig */,
+			);
+			name = "Pods-calculadora-irpf";
+			path = "Target Support Files/Pods-calculadora-irpf";
+			sourceTree = "<group>";
+		};
+		365BC5B797EC235343BDD139E53849FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C6D39E9A0D1748538F068954EAEB1C7 /* Pods_calculadora_irpf.framework */,
+				A5655CE10D70F312EACFD4EF95F2B578 /* Pods_calculadora_irpfTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58161B657A338C78857A62C5FB0D1EBB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				07987DA711CD999CDCA8D7AE86106B0D /* Pods-calculadora-irpf */,
+				E2D7C9B86FD60DDC7A540258EE1C9519 /* Pods-calculadora-irpfTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				365BC5B797EC235343BDD139E53849FE /* Products */,
+				58161B657A338C78857A62C5FB0D1EBB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2D7C9B86FD60DDC7A540258EE1C9519 /* Pods-calculadora-irpfTests */ = {
+			isa = PBXGroup;
+			children = (
+				4818B076087E8A775CB29F310606ECE8 /* Info.plist */,
+				831E826425BDA4E57AE488C954FB5989 /* Pods-calculadora-irpfTests.modulemap */,
+				3AC18C37116D3A6FF90FE67D89CAD93A /* Pods-calculadora-irpfTests-acknowledgements.markdown */,
+				88702EC750CC32332C45749A097B2A90 /* Pods-calculadora-irpfTests-acknowledgements.plist */,
+				3A65422B22D53905DB8898D068417F0B /* Pods-calculadora-irpfTests-dummy.m */,
+				0E16249438F19CADAC9FACEAC06BEB97 /* Pods-calculadora-irpfTests-frameworks.sh */,
+				11A8BA1876430946E84545D7B1E14B0D /* Pods-calculadora-irpfTests-resources.sh */,
+				9C10CEC835297800B5CB22F6425930F3 /* Pods-calculadora-irpfTests-umbrella.h */,
+				BBA49BA0EF775D3050A8F2170FF475DC /* Pods-calculadora-irpfTests.debug.xcconfig */,
+				DE8B886D6D96C14AE2C6820A89BC0A88 /* Pods-calculadora-irpfTests.release.xcconfig */,
+			);
+			name = "Pods-calculadora-irpfTests";
+			path = "Target Support Files/Pods-calculadora-irpfTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1FEDF53FF148CC81EA21C7BEF7989478 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF0DD610413F2AD62B93959B44EFE6A /* Pods-calculadora-irpf-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AE676E601BB985DAE190CE15EE58975 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300AE8087B19D193439A8E00E74D7E1D /* Pods-calculadora-irpfTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BC40E282EB516443C07C2BD6AC85ABF8 /* Pods-calculadora-irpfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A13FE23BB73EE8335AF198B631BC6B6 /* Build configuration list for PBXNativeTarget "Pods-calculadora-irpfTests" */;
+			buildPhases = (
+				2AE676E601BB985DAE190CE15EE58975 /* Headers */,
+				645EEBBB227C57C8A2E4B94E4F8CD501 /* Sources */,
+				01F9A6CA6A7279C98824D330ACE4E221 /* Frameworks */,
+				F7001A31F0F9C0A8299881CB0868E260 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DC075C3D152877EA2BBEFA6114D1F19 /* PBXTargetDependency */,
+			);
+			name = "Pods-calculadora-irpfTests";
+			productName = "Pods-calculadora-irpfTests";
+			productReference = A5655CE10D70F312EACFD4EF95F2B578 /* Pods_calculadora_irpfTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CAF7FAA085FBFB70932BED48A59F1B86 /* Pods-calculadora-irpf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E650E33E7DB95165B098BE47AF57ADBA /* Build configuration list for PBXNativeTarget "Pods-calculadora-irpf" */;
+			buildPhases = (
+				1FEDF53FF148CC81EA21C7BEF7989478 /* Headers */,
+				EB057617FC24BACF97C36143F23678C6 /* Sources */,
+				19A6DA88F6F8B03E7C9F5F2C48B3F854 /* Frameworks */,
+				D45E17FCF65C61D8C53C5C68D2BC741B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-calculadora-irpf";
+			productName = "Pods-calculadora-irpf";
+			productReference = 2C6D39E9A0D1748538F068954EAEB1C7 /* Pods_calculadora_irpf.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 365BC5B797EC235343BDD139E53849FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAF7FAA085FBFB70932BED48A59F1B86 /* Pods-calculadora-irpf */,
+				BC40E282EB516443C07C2BD6AC85ABF8 /* Pods-calculadora-irpfTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D45E17FCF65C61D8C53C5C68D2BC741B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7001A31F0F9C0A8299881CB0868E260 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		645EEBBB227C57C8A2E4B94E4F8CD501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				896AC5AB2271E42F92CD3053F1F5FE48 /* Pods-calculadora-irpfTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB057617FC24BACF97C36143F23678C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AEA6DCB514075E6B8D6A818D5AD65A /* Pods-calculadora-irpf-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DC075C3D152877EA2BBEFA6114D1F19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-calculadora-irpf";
+			target = CAF7FAA085FBFB70932BED48A59F1B86 /* Pods-calculadora-irpf */;
+			targetProxy = FF924BC3480BE5789E557531BFCDFB66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		007F1066051A467FBEB0038594E9D7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		1722F5184AB1FDA8E0D5E8ADF296A0C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE8B886D6D96C14AE2C6820A89BC0A88 /* Pods-calculadora-irpfTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-calculadora-irpfTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-calculadora-irpfTests/Pods-calculadora-irpfTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		70F2C4F9EEB8829256A2A4B32993AF6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBA49BA0EF775D3050A8F2170FF475DC /* Pods-calculadora-irpfTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-calculadora-irpfTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-calculadora-irpfTests/Pods-calculadora-irpfTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D2CEBD479D9C89580C903D5BCF0A1BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4A6937358F768885548F848D4D44AF2 /* Pods-calculadora-irpf.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-calculadora-irpf/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-calculadora-irpf/Pods-calculadora-irpf.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E11155384DEC4A24F4D89FC4439F1FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 157A4EE39679829AAAFB9D53F1CDA601 /* Pods-calculadora-irpf.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-calculadora-irpf/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-calculadora-irpf/Pods-calculadora-irpf.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E246FC26AF4A9832D7AA01080188D618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E246FC26AF4A9832D7AA01080188D618 /* Debug */,
+				007F1066051A467FBEB0038594E9D7C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A13FE23BB73EE8335AF198B631BC6B6 /* Build configuration list for PBXNativeTarget "Pods-calculadora-irpfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F2C4F9EEB8829256A2A4B32993AF6C /* Debug */,
+				1722F5184AB1FDA8E0D5E8ADF296A0C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E650E33E7DB95165B098BE47AF57ADBA /* Build configuration list for PBXNativeTarget "Pods-calculadora-irpf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11155384DEC4A24F4D89FC4439F1FE9 /* Debug */,
+				D2CEBD479D9C89580C903D5BCF0A1BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
